@@ -5,12 +5,17 @@ package.domain = org.wazeauroras
 
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
+
 version = 1.0.0
 requirements = python3,kivy,requests
+
 orientation = portrait
 fullscreen = 0
+
 permissions = internet, access_network_state, access_fine_location
-android.accept_sdk_license = True
+
+# IMPORTANTE: Esto mostrará el error real
+log_level = 2
 
 [buildozer]
 platform = android
