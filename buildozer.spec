@@ -14,9 +14,9 @@ fullscreen = 0
 
 permissions = internet, access_network_state, access_fine_location
 
-# IMPORTANTE: Esto mostrará el error real
 log_level = 2
 
 [buildozer]
 platform = android
 android.accept_sdk_license = True
+android.sdk = 34
