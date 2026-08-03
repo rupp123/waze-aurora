@@ -11,3 +11,5 @@ fullscreen = 0
 [buildozer]
 platform = android
 android.accept_sdk_license = True
+android.api = 34
+android.minapi = 24
